@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("/static/image/product.jpg");
+    height: 100vh;
+    /* background-position: center center; */
+
+    background-size: max(1900px, 100vw);
+    background-repeat: no-repeat;
+    /* height: 644px; */
+    position: relative;
+    /* background-color: rgb(149, 110, 110); */
+    color: rgb(3, 3, 3);
+    font-family: "Kosugi Maru"'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgb(136, 26, 26);
+    color: white;
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 7px 5px 4px rgba(117, 2, 2, 0.5);
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first p {
+    font-size: 40px;
+    width: 61vw;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: "Kosugi Maru"'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    color: rgb(254, 254, 254);
+    text-shadow: 7px 5px 4px rgba(117, 2, 2, 0.5);
+}
+#hero {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    flex-direction: column;
+    gap: 23px;
+    padding: 100px;
+   
+    font-size: 20px;
+
+}
+.hbuttons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    box-align: center;
+    text-align: center;
+    align-items: center;
+}
+.hbuttons input {
+    padding: 1rem 7rem 1rem;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-color: 1px solid rgba(246, 238, 238, 0.5);
+    text-align: left;
+    color: white;
+    align-items: center;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.notify{
+    padding: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

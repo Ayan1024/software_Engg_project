@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/product.css') }}" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>Our Products</nav>
+            <div class="black"></div>
+        </div>
+        <div></div>
+    </header>
+    <main>
+        <div class="line"></div>
+        <section class="first">
+            <p>We are coming soon....</p>
+        </section>
+        <div id="hero">
+            <span> Book in advance.. </span>
+            <form id="emailForm" class="hbuttons">
+                <input type="email" id="emailInput" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-red">Send</button>
+            </form>
+        <div class="notify">We'll notify you when we lunch our Products..</div>
+
+        <script src="{{ url_for('static', filename='js/product.js')}}"></script>
+    </main>
+</body>
+
+</html>
